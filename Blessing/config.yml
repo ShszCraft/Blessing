@@ -1,0 +1,55 @@
+Bss:
+  MariaDB:
+    # The database of IP
+    LocalHost: 127.0.0.1
+    # Database port
+    prot: 3306
+    # Username
+    root: root
+    # Password
+    passwd: 123456
+    # The database
+    databases: skin
+    # The database table 默认不变
+    table: users
+    # Use Unicode
+    Unicode: true
+    # The character set encoding
+    Encoding: utf8
+
+# 语言配置文件-UTF-8-格式
+# Windows系统需要转码
+
+# 通告前缀
+messagePrefix: '&6&l[&2&l温馨提示&6&l]'
+
+# 服主登陆提示（全服通知）
+# {name}=表示玩家，只能在[messageAdminDefault|messageAdminPrompt]和[messageDefault|messagePrompt]使用
+messageAdminDefault: '&b&l服主使用 &e&l{name}&b&l 角色登录本服！'
+# 设置OP提示（不会全服通知）
+messageAdminPrompt: '&b&l尊敬的服主，已经为您设置OP！在您下线时将去除您的OP！'
+
+# 管理员登陆提示（全服通知）
+messageDefault: '&b&l管理员使用 &e&l{name}&b&l 角色登录本服！' 
+# 设置OP提示（不会全服通知）
+messagePrompt: '&b&l尊敬的管理员，已经为您设置OP！在您下线时将去除您的OP！'
+
+# 没有绑定皮肤站帐号
+# {WebUrl}=皮肤站的地址 只能在[messageSkinDefault|messageSkinPrompt]使用
+# 使用{WebUrl}前，请确保已经安装皮肤站！
+# 需要下载Blessing 皮肤站
+# http://www.mcbbs.net/thread-552877-1-1.html
+messageSkinDefault: '&6&l您的角色没有绑定皮肤站帐号，请到这里注册或绑定皮肤站帐号！'
+messageSkinPrompt: '&6&l地址:&n{WebUrl}&b&l地址可以用鼠标点击哦！'
+
+messageSetUpSkinDefault: '&6&l啊呀！您的角色没有设置皮肤呀！，请到这里设置！'
+messageSetUpSkinPrompt: '&6&l地址:&n{WebUrl}&b&l地址可以用鼠标点击哦！'
+
+# 封禁的提示信息(全服)
+messageBannedDefault: '&4&l此账户{username}已被封禁，正在尝试登陆的玩家是{name}' 
+# 公告（仅在有玩家被封禁时出现！）
+announcement0: '&6&l某玩家已被封禁！相关角色已被禁止登录'
+announcement1: '&4&l1.作弊人人皆可，但是你破坏了游戏的公正！'
+announcement2: '&4&l2.扰乱管理员，不是你人人可以让管理员为你服务，注意底线！！'
+announcement3: '&4&l3.更多请移步：http://bbs.mcshsz.net/male '
+
